@@ -87,15 +87,12 @@
         display: block;
         z-index: 10;
     }
-    /* media query navbar */
-    
-    
     
     .dropdown {
         padding-top: 0px;
     }
-    /*navbar hover animation*/
-    /*top animation*/
+
+
     
     .navbar-text::before {
         content: '';
@@ -124,7 +121,6 @@
     .text5::before {
         margin-left: 18px;
     }
-    /*bottom animation*/
     
     .navbar-text::after {
         content: '';
@@ -171,7 +167,7 @@
         position: absolute;
         margin-left: -16px;
     }
-    /*navbar menu text*/
+
     
     .navbar a {
         font-family: 'Dosis', sans-serif;
@@ -182,7 +178,7 @@
         color: black;
         letter-spacing: 1.2px;
     }
-    /*Navbar dropdown*/
+
     
     .dropdown-menu {
         background-color: white;
@@ -214,7 +210,7 @@
     .dropdown:hover .dropdown-menu {
         display: block;
     }
-    /*navbar button*/
+
     
     .getfreequote {
         background-color: #e47312;
@@ -232,8 +228,7 @@
     .getfreequote:hover {
         background-image: linear-gradient(186deg, #e47312, #ff6361);
     }
-    /*PAGE1*/
-    /*SECTION1*/
+    
     
     .section1 {
         margin-left: 10.5%;
@@ -269,10 +264,10 @@
     .section1 button:hover {
         background-image: linear-gradient(186deg, #e47312, #ff6361);
     }
-    /* media query for page1 */
+
     
     
-    /*section2*/
+   
     
     .section2 {
         position: absolute;
@@ -290,7 +285,7 @@
         color: white;
         text-align: center;
     }
-    /*section2 block1*/
+
     
     .block1 {
         margin-top: 10px;
@@ -305,7 +300,7 @@
         color: hsla(0, 0%, 100%, 0.7);
         font-size: 16px;
     }
-    /*section2 block2*/
+ 
     
     .block2 {
         margin-top: 10px;
@@ -320,7 +315,7 @@
         color: hsla(0, 0%, 100%, 0.7);
         font-size: 16px;
     }
-    /*section2 block3*/
+  
     
     .block3 {
         margin-top: 10px;
@@ -349,7 +344,7 @@
         text-underline-offset: 6px;
         color: hsla(0, 0%, 100%, 0.7);
     }
-    /*socialicons*/
+
     
     .socialicons {
         display: flex;
@@ -369,10 +364,7 @@
         border-bottom: 1px solid gray;
         color: gray;
     }
-    /* media query for social icons */
     
-    
-    /*PAGE2*/
     
     .page2 {
         position: absolute;
@@ -380,10 +372,7 @@
         width: 95%;
         background-color: white;
     }
-    /* media query for page2 */
-    
-    
-    /*PAGE2 SECTION1*/
+   
     
     .page2-section1 h1 {
         font-size: 130px;
@@ -412,10 +401,7 @@
         text-decoration: 3px underline #e47312;
         text-underline-offset: 1.9px;
     }
-    /* media query for page2 section1 */
     
-    
-    /*PAGE2 SECTION2*/
     
     .page2-section2 {
         margin-top: 130px;
@@ -455,10 +441,7 @@
     .para {
         font-weight: 200;
     }
-    /* media query for page2 section2*/
-    
-    
-    /*page3*/
+  
     
     .page3 {
         width: 100%;
@@ -467,10 +450,7 @@
         display: flex;
         justify-content: space-around;
     }
-    /* media query for page3 */
-    
    
-    /*page3 section1*/
     
     .page3-section1 {
         width: 40%;
@@ -480,10 +460,7 @@
     .page3-section1 img {
         width: 600px;
     }
-    /* media query for page3 section1 */
-    
-    
-    /*page3 section2*/
+   
     
     .page3-section2 {
         width: 33.5%;
@@ -525,10 +502,7 @@
         text-decoration: 3px underline #e47312;
         text-underline-offset: 1.9px;
     }
-    /* media query for page3 section2 */
-    
-    
-    /*page3-section3*/
+   
     
     .page3-section3 {
         width: 80%;
@@ -539,7 +513,7 @@
         align-items: center;
         margin-left: 5.8%;
     }
-    /*.page3-section3-block*/
+    
     
     .page3-section3-block {
         width: 150px;
@@ -560,10 +534,7 @@
         font-size: 17px;
         line-height: 25px;
     }
-    /* mediquery for page3-section3 */
-    
-    
-    /*page4*/
+   
     
     .page4 {
         position: absolute;
@@ -571,10 +542,7 @@
         width: 100%;
         background-color: #f7f8fc;
     }
-    /* mediquery for page4*/
-    
-    
-    /*PAGE4 SECTION1*/
+   
     
     .page4-section1 h1 {
         font-size: 130px;
@@ -603,10 +571,7 @@
         text-decoration: 3px underline #e47312;
         text-underline-offset: 1.9px;
     }
-    /* media query for page4 section1 */
-    
-    
-    /*page4-section2*/
+  
     
     .page4-section2 {
         width: 100%;
@@ -672,10 +637,7 @@
         text-align: center;
         transition: all 0.3s;
     }
-    /* media query for page4 section2 */
-    
    
-    /*page 4 section 2 orange section*/
     
     .orange-section {
         box-sizing: border-box;
@@ -717,10 +679,7 @@
         text-decoration: 2px underline;
         text-underline-offset: 7px;
     }
-    /*media query for page 4 section 2 orange section*/
-    
-    
-    /*page5*/
+   
     
     .page5 {
         position: absolute;
@@ -728,10 +687,7 @@
         background-color: #f7f8fc;
         width: 100%;
     }
-    /* mediquery for page5*/
-    
    
-    /*PAGE5 SECTION1*/
     
     .page5-section1 h1 {
         font-size: 130px;
@@ -760,11 +716,7 @@
         text-decoration: 3px underline #e47312;
         text-underline-offset: 1.9px;
     }
-    /* media query for page5 section1 */
-    
-    
-    /*PAGE5 SECTION2*/
-    
+   
     .team-members-wrapper {
         position: relative;
         box-sizing: border-box;
@@ -824,10 +776,7 @@
         width: 40px;
         text-align: center;
     }
-    /* media query for page5 section2 */
-    
-    
-    /*page6 testimonials*/
+ 
     
     .page6 {
         position: absolute;
@@ -837,10 +786,7 @@
         height: 1000px;
         display: flex;
     }
-    /* mediquery for page6*/
-    
    
-    /*PAGE6 SECTION1*/
     
     .page6-section1 {
         position: relative;
@@ -884,11 +830,8 @@
         text-decoration: 3px underline #e47312;
         text-underline-offset: 1.9px;
     }
-    /* media query for page6 section1 */
     
-    
-    /*page6 section2*/
-    
+
     .page6-section2 {
         box-sizing: border-box;
         width: 50%;
@@ -959,10 +902,7 @@
         margin-top: 110px;
         margin-left: -20px;
     }
-    /* media query for page6 section2 */
-    
-    
-    /* PAGE 7 BLOG */
+  
     
     .page7 {
         position: absolute;
@@ -971,11 +911,8 @@
         width: 100%;
         box-sizing: border-box;
     }
-    /* mediquery for page7*/
-    
    
-    /*PAGE7 SECTION1*/
-    
+
     .blog-section {
         position: relative;
         box-sizing: border-box;
@@ -1015,11 +952,8 @@
         text-decoration: 3px underline #e47312;
         text-underline-offset: 1.9px;
     }
-    /* media query for page7 section1 */
-    
-    
-    /* page7 section 2 */
-    
+  
+
     .blogs-wrapper {
         margin-top: 15%;
         box-sizing: border-box;
@@ -1141,10 +1075,7 @@
         margin-left: 100px;
         margin-top: 30px;
     }
-    /* media query for page7 section2 */
-    
-    
-    /* footer */
+   
     
     .footer {
         position: absolute;
@@ -1155,7 +1086,7 @@
         border-top: 1px solid #2f3038;
         left: 5%;
     }
-    /* mediquery for page8 footer*/
+   
     
     
     
@@ -1255,10 +1186,7 @@
         margin-left: 85px;
         padding: 45px 120px 45px 35px;
     }
-    /* mediquery for page8 footer*/
-    
-    
-
+  
 
 
 

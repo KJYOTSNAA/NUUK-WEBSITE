@@ -717,11 +717,11 @@
     .team-members-wrapper {
         position: relative;
         box-sizing: border-box;
-        max-width: 100%;
+        max-width: 80%;
         padding: 0px 50px;
         display: grid;
         grid-auto-flow: column;
-        margin: 100px 60px;
+        margin: 100px 80px;
     }
     
     .member-card {

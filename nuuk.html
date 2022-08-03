@@ -9,7 +9,14 @@
     <link rel="icon" type="image/x-icon" href="https://nuuk-e3eaa.firebaseapp.com/assets/img/n1.jpg">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function(){
+           $('#icon').click(function(){
+            $('.menu-items').toggleClass('show');
+           })
+        });
+    </script>
 
 
 
@@ -32,11 +39,11 @@
             
                 
             <nav class="menu-items">
-                <a href="#home"><span class="nav-link"> HOME</span></a>
-                <a href="#project"><span class="nav-link">PROJECTS</span></a>
-                <a href="#about"><span class="nav-link">ABOUT</span></a>
-                <a href="#service"><span class="nav-link">SERVICES</span></a>
-                <a href="#Blog"><span class="nav-link">BLOG</span></a>
+                <a href="#home"class="nav-link"> HOME</a>
+                <a href="#project"class="nav-link">PROJECTS</a>
+                <a href="#about"class="nav-link">ABOUT</a>
+                <a href="#service"class="nav-link">SERVICES</a>
+                <a href="#Blog"class="nav-link">BLOG</a>
                 <div class="drop-down-wrapper">
                     <span class="nav-link">PAGES
                         <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/sort-down.svg" width="8" alt=""

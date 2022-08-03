@@ -4,7 +4,7 @@ NUUK WEBSITE (by jyotsna)
 # 1st section
 
 web
-<img src="pic1.png">
+<img src="./img/pic1.png">
 
 mobile
 <img src="pic2.png">

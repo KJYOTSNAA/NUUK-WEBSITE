@@ -961,8 +961,36 @@ body{
 		
 	}
 	.menu-items{
-        display: none;
+		flex-direction: column;
+        position: fixed;
+		width: 100%;
+		height: 350px;
+		background-color: #fff;
+		top: 60px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
 	}
+	.menu-items.show{
+		left: 0%;
+	}
+	.nav-link::before{
+		display: none;
+	}
+	.nav-link::after{
+		display: none;
+	}
+	.nav-link{
+		display: block;
+		width: 100%;
+		padding: 18px 14px;
+	}
+    
+	.info-wrapper{
+        width: 100%;
+		height: 75px;
+	}
+
 	.features-wrapper{
         display: none;
 	}
@@ -1158,3 +1186,10 @@ body{
 		width: 100%;
 	}
 }
+@media screen and ( hover:hover),(max-width:400px){
+	.nav-link:hover{
+		background-color: #f1f1f7;
+		color: #e47312;
+	}
+}
+
